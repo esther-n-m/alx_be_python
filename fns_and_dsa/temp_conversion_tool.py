@@ -1,5 +1,7 @@
 
-# Global conversion factors
+# temp_conversion_tool.py
+
+# ✅ Required global conversion factors
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
 
@@ -11,7 +13,7 @@ def convert_to_fahrenheit(celsius):
 
 def main():
     temp_input = input("Enter the temperature to convert: ").strip()
-    
+
     try:
         temperature = float(temp_input)
     except ValueError:
